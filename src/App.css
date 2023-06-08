@@ -5,6 +5,65 @@
   text-align: center;
 }
 
+ul{
+  list-style: none;
+  
+
+}
+
+li{
+  background-color: gainsboro;
+  color: black;
+  width: 500px;
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+li:hover{
+  filter: drop-shadow(0 0 0.5rem #7cd2eaec);
+  transition: ease-in-out 0.5s;
+}
+
+.coin-container{
+  justify-content: flex;
+  text-transform: uppercase;
+  background-color: black;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px goldenrod solid;
+}
+
+
+.list{
+  display: flex;
+  justify-content: center;
+  margin: 0 100 0 100;
+}
+
+.inputRow{
+  display: block;
+  justify-content: space-between;
+}
+
+.addBtn{
+  background-color: green;
+}
+.addBtn:hover{
+  filter: drop-shadow( 0 0 1em green);
+  border: darkgreen;
+}
+.deleteBtn{
+  background-color: red;
+  padding: 1rem 2rem;
+}
+
+.logo-Icon{
+  width: 1em;
+  height: 1em;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -12,10 +71,11 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 1em #deb00aec);
+  transition: 1s;
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #f18b15aa);
 }
 
 @keyframes logo-spin {
